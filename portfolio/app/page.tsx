@@ -41,14 +41,14 @@ export default function Page() {
               <div className="absolute -left-[31px] top-1.5 w-3 h-3 rounded-full bg-blue-600 border-2 border-white ring-4 ring-blue-50" />
               <span className="text-xs font-semibold tracking-wide text-blue-600 uppercase">2025 - Present</span>
               <h3 className="text-base font-bold text-gray-900 mt-1">Faculty of Electrical Engineering and Computer Science, University of Maribor </h3>
-              <span className="text-m text-gray-700 mt-2">Master's degree</span>
+              <span className="text-m text-gray-700 mt-2">Master&apos;s degree</span>
             </div>
 
             <div className="relative">
               <div className="absolute -left-[31px] top-1.5 w-3 h-3 rounded-full bg-gray-300 border-2 border-white" />
               <span className="text-xs font-semibold tracking-wide text-gray-400 uppercase">2022 - 2025</span>
               <h3 className="text-base font-bold text-gray-900 mt-1">Faculty of Electrical Engineering and Computer Science, University of Maribor </h3>
-              <span className="text-m text-gray-700 mt-2">Bachelor's degree</span>
+              <span className="text-m text-gray-700 mt-2">Bachelor&apos;s degree</span>
             </div>
 
             <div className="relative">
