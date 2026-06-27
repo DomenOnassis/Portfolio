@@ -19,10 +19,7 @@ export default function Navbar() {
       <div>
         <Link href="/" className="flex flex-col group">
           <span className="font-bold text-lg text-gray-900 group-hover:text-blue-600 transition-colors">
-            Domen Onassis
-          </span>
-          <span className="text-xs text-gray-500 font-medium">
-            dipl. inž. rač. in inf. tehnol. (UN)
+            Domen
           </span>
         </Link>
       </div>
