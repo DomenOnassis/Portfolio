@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Page() {
   return (
-    <div className="max-w-7xl mx-auto py-2 px-4 flex flex-col gap-8">
+    <div className="max-w-7xl mx-auto px-4 flex flex-col gap-8">
       
       {/* Introduction */}
       <div className="bg-gray-50 border border-gray-200 rounded-xl p-8 md:p-12 shadow-sm flex flex-col md:flex-row items-center md:items-start gap-6">

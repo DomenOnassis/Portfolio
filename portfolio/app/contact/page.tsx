@@ -16,7 +16,7 @@ export default function Page() {
                 id="name" 
                 name="name" 
                 placeholder="Your name" 
-                className="w-full px-4 py-2.5 bg-white border border-gray-300 rounded-lg text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
+                className="w-full px-4 py-2.5 bg-white border border-gray-300 rounded-lg text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-blue-500 transition-colors"
                 required
               />
             </div>
@@ -30,7 +30,7 @@ export default function Page() {
                 id="email" 
                 name="email" 
                 placeholder="you@example.com" 
-                className="w-full px-4 py-2.5 bg-white border border-gray-300 rounded-lg text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
+                className="w-full px-4 py-2.5 bg-white border border-gray-300 rounded-lg text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-blue-500 transition-colors"
                 required
               />
             </div>
@@ -44,14 +44,15 @@ export default function Page() {
                 name="message" 
                 rows={4}
                 placeholder="Your message..." 
-                className="w-full px-4 py-2.5 bg-white border border-gray-300 rounded-lg text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors resize-none"
+                className="w-full px-4 py-2.5 bg-white border border-gray-300 rounded-lg text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-blue-500 transition-colors resize-none"
                 required
               />
             </div>
-            {/* TO DO!!! */}
+            
+            {/* TODO: actually send email */}
             <button 
-              type="submit" 
-              className="w-full mt-2 px-4 py-2.5 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg shadow-sm transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+              type="submit"
+              className="mx-auto rounded-3xl border border-(--glass-border) px-6 py-3 font-semibold shadow-2xl/20 inset-shadow-sm inset-shadow-current/15 backdrop-blur-sm bg-(--glass-bg) text-white w-fit cursor-pointer hover:scale-110 transition duration-300" 
             >
               Send Message
             </button>

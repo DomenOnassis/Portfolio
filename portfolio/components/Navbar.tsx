@@ -15,7 +15,8 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="flex justify-between items-center p-4 md:px-8 border-b border-gray-200 bg-white">
+    /* Added w-full here to let justify-between actually separate the items */
+    <nav className="w-full flex justify-between items-center p-4 md:px-8 border-b border-gray-200 bg-white">
       <div>
         <Link href="/" className="flex flex-col group">
           <span className="font-bold text-lg text-gray-900 group-hover:text-blue-600 transition-colors">
@@ -24,15 +25,6 @@ export default function Navbar() {
         </Link>
       </div>
       <ul className="flex gap-6 list-none m-0 p-0">
-        <li className="flex items-center gap-1 text-sm text-gray-400 font-medium">
-          <button className="text-blue-600 font-semibold">
-            EN
-          </button>
-          <span>|</span>
-          <button className="text-gray-500 hover:text-blue-600 transition-colors">
-            SL
-          </button>
-        </li>
         <li>
           <Link href="/" className={linkStyles('/')}>
             Home
