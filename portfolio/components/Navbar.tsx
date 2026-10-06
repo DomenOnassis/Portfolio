@@ -7,24 +7,23 @@ export default function Navbar() {
 
   const linkStyles = (href: string) => {
     const isActive = pathName === href;
-    return `transition-colors duration-200 ${
+    return `font-mono text-xs uppercase tracking-widest transition-colors duration-200 ${
       isActive 
-        ? 'text-blue-600 font-semibold' 
-        : 'text-gray-600 hover:text-blue-600'
+        ? 'text-white font-bold bg-neutral-900 border border-neutral-800 px-2.5 py-1' 
+        : 'text-neutral-400 hover:text-white px-2.5 py-1'
     }`;
   }
 
   return (
-    /* Added w-full here to let justify-between actually separate the items */
-    <nav className="w-full flex justify-between items-center p-4 md:px-8 border-b border-gray-200 bg-white">
+    <nav className="w-full flex justify-between items-center p-4 md:px-8 border-b border-neutral-800 bg-black text-neutral-100">
       <div>
         <Link href="/" className="flex flex-col group">
-          <span className="font-bold text-lg text-gray-900 group-hover:text-blue-600 transition-colors">
+          <span className="font-mono font-bold text-base tracking-widest uppercase text-white group-hover:text-neutral-300 transition-colors">
             Domen
           </span>
         </Link>
       </div>
-      <ul className="flex gap-6 list-none m-0 p-0">
+      <ul className="flex gap-4 list-none m-0 p-0 items-center">
         <li>
           <Link href="/" className={linkStyles('/')}>
             Home
