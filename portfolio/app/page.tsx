@@ -114,13 +114,12 @@ export default function Page() {
               <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-800 text-xs font-mono text-neutral-300 rounded-none">Sqitch</span>
               
               {/* DevOps & Tools */}
-              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-900 text-xs font-mono text-neutral-300 rounded-none">Nix</span>
-              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-900 text-xs font-mono text-neutral-300 rounded-none">Docker</span>
-              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-900 text-xs font-mono text-neutral-300 rounded-none">Git</span>
-              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-900 text-xs font-mono text-neutral-300 rounded-none">Firebase</span>
-              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-900 text-xs font-mono text-neutral-300 rounded-none">Flutter</span>
-
-              {/* Other */}
+              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-600 text-xs font-mono text-neutral-300 rounded-none">Nix</span>
+              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-600 text-xs font-mono text-neutral-300 rounded-none">Docker</span>
+              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-600 text-xs font-mono text-neutral-300 rounded-none">Git</span>
+              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-600 text-xs font-mono text-neutral-300 rounded-none">Firebase</span>
+              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-600 text-xs font-mono text-neutral-300 rounded-none">Flutter</span>
+              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-600 text-xs font-mono text-neutral-300 rounded-none">Svelte</span>
               <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-600 text-xs font-mono text-neutral-300 rounded-none">Figma</span>
             </div>
           </div>
@@ -131,7 +130,7 @@ export default function Page() {
               // Featured Projects
             </h2>
             <p className="text-neutral-500 font-mono text-xs leading-relaxed">
-              This space is intentionally left empty for showcase items, featured open-source repositories, or future portfolio additions.
+              Currently working on: https://github.com/DomenOnassis/FileTransfer
             </p>
           </div>
 
