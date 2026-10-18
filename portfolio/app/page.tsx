@@ -25,10 +25,9 @@ export default function Page() {
           <p className="mt-4 text-neutral-300 text-sm md:text-base leading-relaxed font-mono">
             Master's student in Computer Engineering at the University of Maribor with nearly two
             years of hands-on experience building backend services in TypeScript and PostgreSQL.
-            Comfortable across the stack, from reproducible Nix-based environments and database
-            migrations to automated testing and collaboration with Flutter frontend teams. Currently
+            Comfortable across the stack, from reproducible environments and database
+            migrations to automated testing and even designing . Currently
             open to on-site and hybrid roles.
-
           </p>
         </div>
       </div>
@@ -85,6 +84,7 @@ export default function Page() {
                 <li>Managed database migrations and reproducible environments using Sqitch and Nix.</li>
                 <li>Wrote backend testing suites to ensure reliable system code quality.</li>
                 <li>Collaborated with a team utilizing a Flutter frontend architecture.</li>
+                <li>Designed interactable projects using Figma</li>
               </ul>
             </div>
           </div>
@@ -101,12 +101,12 @@ export default function Page() {
             <div className="flex flex-wrap gap-2">
               {/* Languages */}
               <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-700 text-xs font-mono text-white rounded-none">TypeScript</span>
-              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-800 text-xs font-mono text-neutral-300 rounded-none">Node.js</span>
-              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-800 text-xs font-mono text-neutral-300 rounded-none">C / C++</span>
-              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-800 text-xs font-mono text-neutral-300 rounded-none">C#</span>
-              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-800 text-xs font-mono text-neutral-300 rounded-none">Java</span>
-              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-800 text-xs font-mono text-neutral-300 rounded-none">Kotlin</span>
-              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-800 text-xs font-mono text-neutral-300 rounded-none">Python</span>
+              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-700 text-xs font-mono text-neutral-300 rounded-none">Node.js</span>
+              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-700 text-xs font-mono text-neutral-300 rounded-none">C / C++</span>
+              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-700 text-xs font-mono text-neutral-300 rounded-none">C#</span>
+              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-700 text-xs font-mono text-neutral-300 rounded-none">Java</span>
+              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-700 text-xs font-mono text-neutral-300 rounded-none">Kotlin</span>
+              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-700 text-xs font-mono text-neutral-300 rounded-none">Python</span>
               
               {/* Database */}
               <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-800 text-xs font-mono text-neutral-300 rounded-none">PostgreSQL</span>
@@ -114,11 +114,14 @@ export default function Page() {
               <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-800 text-xs font-mono text-neutral-300 rounded-none">Sqitch</span>
               
               {/* DevOps & Tools */}
-              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-800 text-xs font-mono text-neutral-300 rounded-none">Nix</span>
-              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-800 text-xs font-mono text-neutral-300 rounded-none">Docker</span>
-              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-800 text-xs font-mono text-neutral-300 rounded-none">Git</span>
-              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-800 text-xs font-mono text-neutral-300 rounded-none">Firebase</span>
-              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-800 text-xs font-mono text-neutral-300 rounded-none">Flutter</span>
+              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-900 text-xs font-mono text-neutral-300 rounded-none">Nix</span>
+              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-900 text-xs font-mono text-neutral-300 rounded-none">Docker</span>
+              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-900 text-xs font-mono text-neutral-300 rounded-none">Git</span>
+              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-900 text-xs font-mono text-neutral-300 rounded-none">Firebase</span>
+              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-900 text-xs font-mono text-neutral-300 rounded-none">Flutter</span>
+
+              {/* Other */}
+              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-600 text-xs font-mono text-neutral-300 rounded-none">Figma</span>
             </div>
           </div>
 
