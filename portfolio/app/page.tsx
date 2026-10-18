@@ -23,8 +23,12 @@ export default function Page() {
             Computer Engineer
           </span>
           <p className="mt-4 text-neutral-300 text-sm md:text-base leading-relaxed font-mono">
-            long long long long long long long long long long long long long long long long 
-            long long long long long long long long long long long long long long long text
+            Master's student in Computer Engineering at the University of Maribor with nearly two
+            years of hands-on experience building backend services in TypeScript and PostgreSQL.
+            Comfortable across the stack, from reproducible Nix-based environments and database
+            migrations to automated testing and collaboration with Flutter frontend teams. Currently
+            open to on-site and hybrid roles.
+
           </p>
         </div>
       </div>
