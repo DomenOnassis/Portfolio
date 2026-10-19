@@ -4,7 +4,7 @@ export default function Page() {
       <div className="w-full max-h-min max-w-md bg-neutral-950 border border-neutral-800 rounded-none p-8 md:p-12 shadow-2xl flex flex-col items-center gap-6">
         <div className="flex flex-col w-full text-center">
           <span className="text-xl font-mono font-bold tracking-widest uppercase text-white block mb-6">
-            // Come in contact with me
+            // Contact me
           </span>
           <form className="flex flex-col gap-y-4 w-full">
             <div className="flex flex-col gap-y-1.5 text-left">
