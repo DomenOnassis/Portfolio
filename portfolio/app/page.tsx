@@ -119,7 +119,15 @@ export default function Page() {
               // Featured Projects
             </h2>
             <p className="text-neutral-500 font-mono text-xs leading-relaxed">
-              Currently working on: https://github.com/DomenOnassis/FileTransfer
+              Currently working on:{' '}
+              <a 
+                href="https://github.com/DomenOnassis/FileTransfer" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-neutral-300 hover:text-white underline transition-colors"
+              >
+                https://github.com/DomenOnassis/FileTransfer
+              </a>
             </p>
           </div>
         </div>
