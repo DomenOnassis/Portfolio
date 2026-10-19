@@ -3,8 +3,6 @@ import Image from 'next/image';
 export default function Page() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-8 flex flex-col gap-8 bg-black text-neutral-100 min-h-screen">
-      
-      {/* Introduction */}
       <div className="bg-neutral-950 border border-neutral-800 rounded-none p-8 md:p-12 shadow-2xl flex flex-col md:flex-row items-center md:items-start gap-6">
         <div className="w-32 h-32 md:w-40 md:h-40 shrink-0 relative rounded-none border border-neutral-700 bg-neutral-900 ring-1 ring-neutral-800">
           <Image 
@@ -32,10 +30,7 @@ export default function Page() {
         </div>
       </div>
 
-      {/* Grid Start */}
       <div className="grid grid-cols-1 md:grid-cols-8 gap-8 items-start">
-        
-        {/* Timeline */}
         <div className="md:col-span-3 flex flex-col gap-y-6">
           <h2 className="text-sm font-mono tracking-widest uppercase text-neutral-400 px-2">
             // Educational Journey
@@ -90,21 +85,16 @@ export default function Page() {
           </div>
         </div>
 
-        {/* Cards */}
         <div className="md:col-span-5 flex flex-col gap-y-6">
-          
-          {/* Tech Stack */}
           <div className="bg-neutral-950 border border-neutral-800 rounded-none p-6 md:p-8 shadow-2xl">
             <h2 className="text-sm font-mono tracking-widest uppercase text-neutral-400 mb-4">
               // Tech Stack
             </h2>
             <div className="flex flex-wrap gap-2">
-              {/* Languages */}
               <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-700 text-xs font-mono text-white rounded-none">TypeScript</span>
               <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-700 text-xs font-mono text-neutral-300 rounded-none">Node.js</span>
               <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-700 text-xs font-mono text-neutral-300 rounded-none">C / C++</span>
               <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-700 text-xs font-mono text-neutral-300 rounded-none">C#</span>
-              <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-700 text-xs font-mono text-neutral-300 rounded-none">Java</span>
               <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-700 text-xs font-mono text-neutral-300 rounded-none">Kotlin</span>
               <span className="px-2.5 py-1 bg-neutral-900 border border-neutral-700 text-xs font-mono text-neutral-300 rounded-none">Python</span>
               
@@ -124,7 +114,6 @@ export default function Page() {
             </div>
           </div>
 
-          {/* Featured Projects */}
           <div className="bg-neutral-950 border border-neutral-800 rounded-none p-6 md:p-8 shadow-2xl min-h-50">
             <h2 className="text-sm font-mono tracking-widest uppercase text-neutral-400 mb-2">
               // Featured Projects
@@ -133,9 +122,7 @@ export default function Page() {
               Currently working on: https://github.com/DomenOnassis/FileTransfer
             </p>
           </div>
-
         </div>
-
       </div>
     </div>
   );
