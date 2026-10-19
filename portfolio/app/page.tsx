@@ -6,7 +6,7 @@ export default function Page() {
       
       {/* Introduction */}
       <div className="bg-neutral-950 border border-neutral-800 rounded-none p-8 md:p-12 shadow-2xl flex flex-col md:flex-row items-center md:items-start gap-6">
-        <div className="w-32 h-32 md:w-40 md:h-40 flex-shrink-0 relative rounded-none border border-neutral-700 bg-neutral-900 ring-1 ring-neutral-800">
+        <div className="w-32 h-32 md:w-40 md:h-40 shrink-0 relative rounded-none border border-neutral-700 bg-neutral-900 ring-1 ring-neutral-800">
           <Image 
             src="/globe.svg"
             alt="Domen Onassis"
@@ -43,27 +43,27 @@ export default function Page() {
           <div className="relative border-l border-neutral-800 ml-4 pl-6 flex flex-col gap-y-8">
             
             <div className="relative">
-              <div className="absolute -left-[31px] top-1.5 w-2.5 h-2.5 rounded-none bg-white border border-black ring-1 ring-neutral-700" />
+              <div className="absolute -left-7.75 top-1.5 w-2.5 h-2.5 rounded-none bg-white border border-black ring-1 ring-neutral-700" />
               <span className="text-xs font-mono font-bold tracking-wider text-white uppercase">2025 - Present</span>
               <h3 className="text-sm font-bold text-neutral-100 mt-1">Faculty of Electrical Engineering and Computer Science, University of Maribor</h3>
               <span className="text-xs font-mono text-neutral-400 uppercase block mt-1">Master&apos;s degree</span>
             </div>
 
             <div className="relative">
-              <div className="absolute -left-[31px] top-1.5 w-2.5 h-2.5 rounded-none bg-neutral-800 border border-neutral-700" />
+              <div className="absolute -left-7.75 top-1.5 w-2.5 h-2.5 rounded-none bg-neutral-800 border border-neutral-700" />
               <span className="text-xs font-mono tracking-wider text-neutral-500 uppercase">2022 - 2025</span>
               <h3 className="text-sm font-bold text-neutral-200 mt-1">Faculty of Electrical Engineering and Computer Science, University of Maribor</h3>
               <span className="text-xs font-mono text-neutral-400 uppercase block mt-1">Bachelor&apos;s degree</span>
             </div>
 
             <div className="relative">
-              <div className="absolute -left-[31px] top-1.5 w-2.5 h-2.5 rounded-none bg-neutral-800 border border-neutral-700" />
+              <div className="absolute -left-7.75 top-1.5 w-2.5 h-2.5 rounded-none bg-neutral-800 border border-neutral-700" />
               <span className="text-xs font-mono tracking-wider text-neutral-500 uppercase">2018 - 2022</span>
               <h3 className="text-sm font-bold text-neutral-200 mt-1">Secondary School of Electrical Engineering and Computer Science Maribor</h3>
             </div>
 
             <div className="relative">
-              <div className="absolute -left-[31px] top-1.5 w-2.5 h-2.5 rounded-none bg-neutral-800 border border-neutral-700" />
+              <div className="absolute -left-7.75 top-1.5 w-2.5 h-2.5 rounded-none bg-neutral-800 border border-neutral-700" />
               <span className="text-xs font-mono tracking-wider text-neutral-500 uppercase">2003</span>
               <h3 className="text-sm font-bold text-neutral-200 mt-1">Birth</h3>
             </div>
@@ -74,7 +74,7 @@ export default function Page() {
           </h2>
           <div className="relative border-l border-neutral-800 ml-4 pl-6 flex flex-col gap-y-8">
             <div className="relative">
-              <div className="absolute -left-[31px] top-1.5 w-2.5 h-2.5 rounded-none bg-neutral-800 border border-neutral-700" />
+              <div className="absolute -left-7.75 top-1.5 w-2.5 h-2.5 rounded-none bg-neutral-800 border border-neutral-700" />
               <span className="text-xs font-mono tracking-wider text-neutral-400 uppercase">2024 - 2026</span>
               <h3 className="text-sm font-bold text-neutral-100 mt-1">Faculty of Electrical Engineering and Computer Science, University of Maribor</h3>
               <span className="text-xs font-mono text-neutral-400 uppercase block mt-1 mb-2">Student Software Developer</span>
@@ -125,7 +125,7 @@ export default function Page() {
           </div>
 
           {/* Featured Projects */}
-          <div className="bg-neutral-950 border border-neutral-800 rounded-none p-6 md:p-8 shadow-2xl min-h-[200px]">
+          <div className="bg-neutral-950 border border-neutral-800 rounded-none p-6 md:p-8 shadow-2xl min-h-50">
             <h2 className="text-sm font-mono tracking-widest uppercase text-neutral-400 mb-2">
               // Featured Projects
             </h2>
