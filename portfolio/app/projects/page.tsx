@@ -72,8 +72,13 @@ export default function Page() {
 
         <div className="flex flex-col md:flex-row gap-6 content-center">
           <p className="text-neutral-300 text-sm md:text-base leading-relaxed w-full md:w-1/2">
-            FileTransfer is a small web application for sending files directly from one device to another. There are no accounts, no uploads to a cloud and no size limits imposed by a server. One device starts a session and gets an ID and a password, the other enters them, the host approves, and the files travel straight between the two browsers over WebRTC.
-            The only job of the server is to introduce the devices to each other. Once the connection is established, file data never touches it.
+            FileTransfer is a small web application for sending files directly from one device to another. 
+            There are no accounts, no uploads to a cloud and no size limits imposed by a server.
+            <br/>
+            One device starts a session and gets an ID and a password, the other enters them, the host approves, and the files travel straight between the two browsers over WebRTC.
+            <br/>
+            The server's only job is to introduce the devices to each other.
+            Once the connection is established, file data never touches it.
           </p>
 
           <div className="flex flex-col gap-6 w-full md:w-1/2">

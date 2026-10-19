@@ -24,8 +24,8 @@ export default function Page() {
             Master's student in Computer Engineering at the University of Maribor with nearly two
             years of hands-on experience building backend services in TypeScript and PostgreSQL.
             Comfortable across the stack, from reproducible environments and database
-            migrations to automated testing and even designing . Currently
-            open to on-site and hybrid roles.
+            migrations to automated testing and even designing.
+            Currently open to on-site and hybrid roles.
           </p>
         </div>
       </div>
