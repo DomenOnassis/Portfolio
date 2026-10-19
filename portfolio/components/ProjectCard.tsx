@@ -7,6 +7,7 @@ interface ProjectCardProps {
   description: string;
   tags: string[];
   image: string;
+  status: 'work-in-progress' | 'completed';
 }
 
 export default function ProjectCard({
@@ -15,10 +16,13 @@ export default function ProjectCard({
   description,
   tags,
   image,
+  status,
 }: ProjectCardProps) {
+  const isInProgress = status === 'work-in-progress';
+
   return (
     <Link
-      href={`/projects/${slug}`}
+      href={`/project/${slug}`}
       className="group bg-neutral-950 border border-neutral-800 hover:border-neutral-600 transition-colors flex flex-col overflow-hidden"
     >
       <div className="w-full h-48 relative border-b border-neutral-800 bg-neutral-900 overflow-hidden">
@@ -37,7 +41,25 @@ export default function ProjectCard({
             <h2 className="text-xl font-bold tracking-wider uppercase text-white group-hover:text-neutral-300 transition-colors">
               {title}
             </h2>
+          
+            <div className="flex items-center gap-2">
+              <span
+                className={`inline-block w-2 h-2 rounded-full ${
+                  isInProgress
+                    ? 'bg-amber-500 animate-ping'
+                    : 'bg-emerald-500 shadow-[0_0_8px_rgba(16,185,129,0.5)]'
+                }`}
+              />
+              <span
+                className={`text-[10px] tracking-wider uppercase font-medium ${
+                  isInProgress ? 'text-amber-400' : 'text-emerald-400'
+                }`}
+              >
+                {isInProgress ? 'Work In Progress' : 'Completed'}
+              </span>
+            </div>
           </div>
+
           <p className="text-neutral-400 text-xs leading-relaxed line-clamp-3">
             {description}
           </p>

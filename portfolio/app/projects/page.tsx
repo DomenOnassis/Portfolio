@@ -22,6 +22,7 @@ export default function Page() {
           description="Direct P2P file transfer tool via WebRTC and WebSockets. No cloud storage, no accounts, and no file size limits."
           tags={['TypeScript', 'Svelte 5', 'WebRTC']}
           image="/ft_1.png"
+          status="work-in-progress"
         />
       </div>
     </div>
